@@ -26,7 +26,7 @@ while True:
 		cv2.imshow("Face", face_selection)
 		cv2.rectangle(frame,(x,y),(x+w,y+h),(0,255,0),2)
 
-	cv2.imshow("faces",frame)
+	cv2.imshow("faces", frame)
 
 	key_pressed = cv2.waitKey(1) & 0xFF
 	if key_pressed == ord('q'):
